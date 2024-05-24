@@ -28,7 +28,7 @@
  * 
  * @return true if success, false for failure. 
  */
-bool nexInit(void);
+bool nexInit(uint32_t baudrate);
 
 /**
  * Listen touch event and calling callbacks attached before.
